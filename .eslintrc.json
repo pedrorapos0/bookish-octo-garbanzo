@@ -37,6 +37,9 @@
     "prettier/prettier": "error",
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "jsx-a11y/heading-has-content": "off",
     "jsx-a11y/anchor-is-valid": [
       "error",
       {
@@ -72,12 +75,6 @@
       {
         "ts": "never",
         "tsx": "never"
-      }
-    ],
-    "@typescript-eslint/explicit-function-return-type": [
-      "error",
-      {
-        "allowExpressions": true
       }
     ],
     "@typescript-eslint/camelcase": "off"
